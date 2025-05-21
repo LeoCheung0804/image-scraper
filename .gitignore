@@ -1,0 +1,11 @@
+# Ignore directories where downloaded images are stored
+images/
+downloads/
+scraped_images/
+
+# Ignore common image file extensions
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
