@@ -1,4 +1,4 @@
-# Image Scraper Program
+# Image Scraper
 
 This Python-based image scraper uses Selenium and BeautifulSoup to extract images from websites based on search keys and customizable parameters. It’s designed for tasks like building datasets, content aggregation, or research, with features like headless browsing, resolution filtering, and parallel processing.
 
