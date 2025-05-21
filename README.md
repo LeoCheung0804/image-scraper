@@ -11,6 +11,13 @@ This Python-based image scraper uses Selenium and BeautifulSoup to extract image
 - Uses parallel threads to scrape multiple search keys efficiently.
 
 ## Prerequisites
+Clone the repository or download the script:
+```bash
+git clone https://github.com/LeoCheung0804/image-scraper.git
+cd image-scraper
+```
+or download the ZIP file and extract it.
+
 To run this program, ensure you have Python installed (version 3.6 or higher recommended). You’ll also need to install the following libraries:
 
 - `beautifulsoup4` - Parses HTML content.
@@ -23,10 +30,6 @@ Install them using pip:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Setup
-1. **Clone or Download**: Obtain the script (`image_scraper.py`) and place it in your working directory.
-2. **Configure ChromeDriver**: The `webdriver-manager` library will handle ChromeDriver installation and updates automatically when you run the script.
 
 ## Configuration
 Edit the `main` function in `image_scraper.py` or create a configuration section with the following parameters:
